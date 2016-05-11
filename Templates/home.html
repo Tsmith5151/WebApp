@@ -1,0 +1,46 @@
+<!-- Extends is always first -->
+{% extends "base.html" %} 
+{% load crispy_forms_tags %}
+
+{% block head_title %} Welcome | {% endblock %}
+
+<style>
+{% block style %}
+{% endblock %}
+</style>
+
+{% block jumbotron %}
+
+<div class="jumbotron">
+ 	<div class="container">
+	<div class="row">
+		<div class="col-sm-5">
+		<font size ="8" color = "white"><h1>RunFit</font></h1>
+		<font size ="3" color = "white"><p>Search thousands of 5K, 10K, half-marathons, and full-martathons in the U.S. and sign-up. Once signed up, connect with fellow running enthusiasts and begin training today! </font></p>
+		<p>
+		<a class="btn btn-lg btn-primary" href="" role="button">Explore &raquo;</a>
+		</p>
+		</div>
+  <div class="col-sm-2 col-md-4 pull-right">
+		<p class='lead text-align-center1'>{{ title }}</p>
+		<!--csrf_token is security from Django -->
+		<form method ='POST' action =''>{% csrf_token %} 
+		<!-- formats the form vertically (.as_p) -->
+		{{form|crispy}}
+		<input class='btn btn-danger' type = 'submit' value='Sign Up'/>
+		</forms>
+	</div>
+<!-- <center><div class='col-sm-3'>
+<p class='lead text-align-center'>About</p>
+</div>
+
+	<div class='col-sm-3'>
+<p class='lead text-align-center'>How it Works</p>
+</div>
+
+	<div class='col-sm-3'>
+<p class='lead text-align-center'>Categories</p>
+</div>
+ -->
+</div>
+{% endblock %}

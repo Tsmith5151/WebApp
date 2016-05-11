@@ -1,0 +1,20 @@
+.text-align-center {
+		text-align: center;
+		color: white;
+		font-weight: normal;
+		border-radius: 25px;
+		background-color:#383838;
+    	background-image: url(http://www.transparenttextures.com/patterns/concrete-wall-2.png);
+    	padding: 20px; 
+    	width: 200px;
+    	height: 150px
+	}
+
+.text-align-center1 {
+		text-align: center;
+		color: red;
+	}
+
+.jumbotron{
+	background-image:url(http://questoutdoors.com/wp-content/uploads/2013/11/hp_rotation01.jpg);
+}
