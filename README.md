@@ -5,6 +5,7 @@
 ![alt](landing page.png)
 
 ### Python Frameworks:
+
 - 'Python 2.7'
 - 'Django==1.9.6'
 - 'django-crispy-forms==1.6.0'
@@ -14,5 +15,6 @@
 
 - First cd into the main directory and then use the following command in the terminal to run the server:
 
-``` python manage.py runserver
+``` 
+python manage.py runserver
 ```
