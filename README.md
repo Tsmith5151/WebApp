@@ -6,10 +6,10 @@
 
 ### Python Frameworks:
 
-- 'Python 2.7'
-- 'Django==1.9.6'
-- 'django-crispy-forms==1.6.0'
-- 'django-registration-redux==1.4'
+- `Python 2.7`
+- `Django==1.9.6`
+- `django-crispy-forms==1.6.0`
+- `django-registration-redux==1.4`
 
 ### Running the Server:
 
